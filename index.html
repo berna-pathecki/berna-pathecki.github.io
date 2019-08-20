@@ -10,10 +10,23 @@
 
     <title>Profissão Desenvolvedor Web</title>
     <link rel="icon" href="imagens/favicon.png" />
+  <style>
+    body{position: relative;}
+  </style>
+
+
   </head>
-  <body>
+
+  <body data-spy="scroll" data-target="#navbar-example2">
       <main class="container">
-<div class="jumbotron jumbotron-fluid rounded bg-danger">
+
+
+
+
+
+
+
+<div class="jumbotron jumbotron-fluid rounded bg-primary">
   <div class="container">
     <h1 class="display-4">Profissão Desenvolvedor Web</h1>
     <p class="lead">
@@ -21,6 +34,26 @@
     </p>
   </div>
 </div>
+
+      <!--Inicio do Menu de Navegação-->
+
+  <nav id="navbar-example2" class="navbar navbar-light bg-light sticky-top">
+  <a class="navbar-brand text-success" href="#">BERNARDO PATHECKI</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#fro">Front-End</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#bac">Back-End</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#dev">Dev Ops</a>
+    </li>
+  </ul>
+</nav>
+
+
+
 <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -61,12 +94,17 @@
     </a>
   </div>
 </div>
-      
-    <h1>Ir Para</h1>
-<a href="frontend.html"><button type="button" class="btn btn-primary btn-lg btn-block mt-2">Front-End</button></a>
-<a href="backend.html"><button type="button" class="btn btn-primary btn-lg btn-block mt-2">Back-End</button></a>
-<a href="devops.html"><button type="button" class="btn btn-primary btn-lg btn-block mt-2">Dev Ops</button></a>
-<a href="index.html"><button type="button" class="btn btn-success btn-lg btn-block mt-2">Página Inicial</button></a>
+<!--Conteudo da NAVBAR-->
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="fro" style="padding-top:70px;">Front-End</h4>
+  <p>...</p>
+  <h4 id="bac" style="padding-top:70px;">Back-End</h4>
+  <p>...</p>
+  <h4 id="dev" style="padding-top:70px;">Dev Ops</h4>
+  <p>...</p>
+  </div>
+<!--Conteudo da NAVBAR-->
+
 
 </main>
     <!-- Optional JavaScript -->
