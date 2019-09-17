@@ -43,7 +43,7 @@ function mostrarPlacarDois(){
   
   if(yOvelha<15){
   placarDois +=1;
-  yVaca2=380;
+  yOvelha=380;
     pontos.play();
   }
 textSize(25);
